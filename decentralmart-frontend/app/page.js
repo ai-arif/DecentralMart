@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+import Navbar from "@/components/Navbar";
 
 import ConnectWallet from "@/components/ConnectWallet";
 
@@ -9,6 +11,10 @@ export default function Home() {
         <h1>DecentralMart</h1>
         <ConnectWallet />
       </nav>
+
+      <div>
+        <Navbar />
+      </div>
 
       <section>
         <h2>
